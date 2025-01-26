@@ -1,0 +1,1 @@
+This repository demonstrates a subtle type mismatch error in Swift. The `calculateAreaWithError` function expects two `Double` arguments. However, the function call passes a `String` ("20") as the second argument, resulting in a compiler error.  The solution demonstrates how to fix this error by ensuring the correct data type is passed to the function.
